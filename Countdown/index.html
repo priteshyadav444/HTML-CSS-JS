@@ -1,0 +1,66 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Count Down</title>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style type="text/css">
+  @media only screen and (  max-width: 700px) {
+      body {
+       background: #282e3a;
+        }
+        h1{
+          font-size:42px;
+          letter-spacing:5px;
+        }
+      #countdown{
+      width:420px;
+      margin:7% auto;
+       }
+      
+      #clock span{
+      border-radius:5px;
+      float:left;
+      text-align:center;
+      font-size:20px; 
+       }  
+
+      #units span{
+      color:#fff;
+      margin-top:20px;
+      font-size:15px;
+      letter-spacing:1px;
+    }  
+      #content{
+                    margin-top:200px;
+                   } 
+
+      }
+      @media only screen and (min-width:400px){
+                   #countdown{
+                    height:700px;
+                   }
+                   #content{
+                    margin-top:450px;
+                   }
+            }
+  </style>
+
+</head>
+<body>
+      <div id="countdown">
+          <h1>Site Launch In</h1>
+           <div id="clock"></div>
+           <div id="units">
+               <span>Days</span>
+               <span>Hours</span>
+               <span>Minutes</span>
+               <span>Seconds</span>
+           </div>
+             <h1 id="content">Stay Tuned on 10<sup>th</sup>April 2020</h1>
+      </div>
+</body>
+</html>
