@@ -1,1 +1,1 @@
-# implemented Hover effect on button applied custom css
+# Implemented Hover effect on button by appling custom css
